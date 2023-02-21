@@ -7,5 +7,5 @@ export const ContactsList = styled.ul`
   padding-left: 0px;
   color: grey;
   list-style: none;
-  padding-left: 20px;
+  align-items: center;
 `;

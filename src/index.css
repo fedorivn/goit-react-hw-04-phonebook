@@ -15,10 +15,10 @@ h1, h2{
   margin:0;
   color: grey;
   margin-bottom: 20px;
-  padding-left: 20px;
+ 
 }
 
-form{
+/* form{
   width: 400px;
   padding-left: 40px;
   padding-right: 40px;
@@ -92,4 +92,4 @@ ul{
 li{
   border: 2px solid grey;
   padding:10px;
-}
+} */

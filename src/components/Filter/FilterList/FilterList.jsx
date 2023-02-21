@@ -7,13 +7,13 @@ import { ContactsList } from './FilterList.styled';
 export const FilterList = ({ contacts, onDeleteContacts }) => {
   return (
     <ContactsList>
-      {contacts.map(contact => (
+      {contacts.map(({ id, name, number })=> (
         <ContactItem
-          key={contact.id}
-          name={contact.name}
-          number={contact.number}
-          id={contact.id}
-          onDeleteContacts={onDeleteContacts}
+          key={id}
+          name={name}
+          number={number}
+          id={id}
+          onDeleteContacts={() => onDeleteContacts(id)}
         />
       ))}
     </ContactsList>

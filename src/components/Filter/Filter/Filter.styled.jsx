@@ -3,8 +3,8 @@ import styled from '@emotion/styled';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  padding-left: 110px;
+  /* margin: 0 auto; */
+  padding-left: 39px;
   padding-right: 20px;
 `;
 export const Prompt = styled.span`
